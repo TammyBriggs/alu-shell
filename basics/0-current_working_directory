@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Current working directory: $(pwd)"
+python -c "import os; print(os.path.abspath(os.getcwd()))"
