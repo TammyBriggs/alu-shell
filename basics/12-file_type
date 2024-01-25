@@ -1,5 +1,2 @@
 #!/bin/bash
-if [ -e "/tmp/iamafile" ]
-then
-  file -b "/tmp/iamafile"
-fi
+file /tmp/iamafile
